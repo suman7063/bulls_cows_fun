@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.play-container{
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 1px 3px 5px 0 rgb(51 49 49 / 33%);
+  background-color: #fff;
+  text-align: center;
+  padding: 80px 30px;
+  margin: auto;
+}
+.welcome{
+  text-align: center;
+}
+.play{
+  background-color: cadetblue;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
+  color: #fff;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  padding: 30px;
+  width: 40%;
+  margin: auto;
+  background-color: aliceblue;
+}
+.input-main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.input-box {
+  width: 70%;
+  height: 40px;
+}
+.button {
+  width: 20%;
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  text-align: center;
+}
+.row {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightblue;
+  padding: 10px 0px;
+  font-size: 15px;
+}
+.input-value {
+  width: 200px;
+  text-align: left;
+  color: blue;
+  letter-spacing: 3px;
+}
+.error {
+  width: 260px;
+  font-size: 11px;
+  text-align: left;
+  color: red;
+}
+.loser{
+  width: 100%;
+  margin-top: 40px;
+}
+.word{
+  color: aliceblue;
+  margin-top: -35px;
+}
+.list-container{
+  height: 400px;
+  overflow: scroll;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 778px) {
+  .App {
+    padding: 30px 10px;
+    width: 90%;
   }
-  to {
-    transform: rotate(360deg);
+  .play-container{
+    width: 70%;
+  }
+  .list-container{
+    height: 300px;
   }
 }
