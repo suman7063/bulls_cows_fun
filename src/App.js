@@ -142,7 +142,7 @@ export default function App() {
     setOpen(true)
     setValue(e.target.value.toLowerCase());
     if (e.target.value === '') {
-      setError(['Please pass a default value of `{}` for the buttonStyle ']);
+      setError('Please pass correct value');
       return;
     }
     const valid = IsValidJSONString(e.target.value.toLowerCase());
