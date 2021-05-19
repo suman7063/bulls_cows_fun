@@ -83,7 +83,7 @@
   margin-top: -35px;
 }
 .list-container{
-  height: 400px;
+  height: 65vh;
   overflow: scroll;
 }
 
@@ -94,8 +94,5 @@
   }
   .play-container{
     width: 70%;
-  }
-  .list-container{
-    height: 300px;
   }
 }
