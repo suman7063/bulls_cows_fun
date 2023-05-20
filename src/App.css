@@ -88,13 +88,14 @@
 }
 
 .wrap-welcome{
-  width: 90%;
+  width: 40%;
   display:flex;
   justify-content:space-between;
-  align-item:center;
+  align-items:center;
+  margin:auto;
 }
 .left-text{
- font-size:20px;
+ font-size:16px;
 }
 .left-text > span{
   color:red;
@@ -107,5 +108,11 @@
   }
   .play-container{
     width: 70%;
+  }
+  .wrap-welcome{
+    width:90%;
+  }
+  .wrap-welcome >h1{
+    font-size:16px;
   }
 }
