@@ -281,7 +281,12 @@ export default function App() {
     )}
     
     {open && (  <>
-      <h1 className="welcome">Welcome</h1>
+              <div className="wrap-welcome">
+      <h1 className="welcome">Let's Play Cows & Bulls</h1>
+              <div className="left-text">
+              Left <span>{list.length} </span> trail
+              </div>
+              </div>
       <div className="App">
       <div className="input-main">
         <input
