@@ -284,7 +284,7 @@ export default function App() {
               <div className="wrap-welcome">
       <h1 className="welcome">Let's Play Cows & Bulls</h1>
               <div className="left-text">
-              Left <span>{list.length} </span> trail
+              Left <span>{6-list.length} </span> trail
               </div>
               </div>
       <div className="App">
