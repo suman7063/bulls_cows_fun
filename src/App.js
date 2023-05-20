@@ -309,7 +309,7 @@ export default function App() {
       <div className="error">{error}</div>
       <div className="list-container">
       {
-        list.length<=10 ? list.map((content, index) => (
+        list.length<=5 ? list.map((content, index) => (
         <>
         {
           content.bull === 4 ? <div key={`index+${index}`}><img src={winner} alt="winner" className="loser"/><p className="word">The Word Was <span style={{textDecoration: 'underline solid aliceblue'}}>{arr}</span></p></div>:
